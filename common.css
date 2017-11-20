@@ -1,0 +1,49 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-27 14:46:10
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-10-07 20:20:32
+*/
+body,ul,h1,h2,h3,h4,h5,h6,p,input,button,ol,dl,div {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font:12px microsoft yahei;
+}
+li {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight:normal;
+}
+a {
+    text-decoration: none;
+}
+
+input,img {
+    border:0 none;
+}
+input {
+    outline-style: none;
+}
+img {
+    vertical-align: middle;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height:0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    zoom:1;
+}
